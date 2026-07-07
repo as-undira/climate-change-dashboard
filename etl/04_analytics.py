@@ -1,29 +1,14 @@
-"""
-=====================================================
-File        : 04_analytics.py
-Project     : Climate Change Dashboard
-Description : Analytics Summary
-=====================================================
-"""
-
 from pathlib import Path
 import sys
-
 import pandas as pd
 
-# =====================================================
 # Project Path
-# =====================================================
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(PROJECT_ROOT))
 
 from config import PROCESSED_DATA_FILE
 
-# =====================================================
 # Load Dataset
-# =====================================================
-
 df = pd.read_csv(PROCESSED_DATA_FILE)
 
 print("=" * 60)

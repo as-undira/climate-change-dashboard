@@ -11,3 +11,5 @@ Developed using:
 - Pandas
 - Plotly
 - Streamlit
+
+Data source from Kaggle https://www.kaggle.com/datasets/cornflake15/denpasarbalihistoricalweatherdata
